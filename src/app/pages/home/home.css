@@ -1,5 +1,6 @@
 .home-container {
-  margin: 40px auto;
+  margin: auto auto;
+  padding: 35px;
   max-width: 600px;
   text-align: center;
   font-family: Arial, sans-serif;
