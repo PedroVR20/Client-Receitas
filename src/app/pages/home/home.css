@@ -1,0 +1,32 @@
+.home-container {
+  margin: 40px auto;
+  max-width: 600px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b35;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #e05a2d;
+}
