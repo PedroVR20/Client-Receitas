@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrlReceitas: 'https://suaapi.com/receitas'
+  apiUrl: 'https://SEU-DOMINIO-EM-PRODUCAO/api/receitas'
 };
