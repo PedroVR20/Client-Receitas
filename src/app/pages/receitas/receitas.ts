@@ -7,8 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './receitas.css',
 })
 export class Receitas {
-
   
- 
-
 }
