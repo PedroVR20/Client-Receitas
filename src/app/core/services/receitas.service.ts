@@ -10,11 +10,14 @@ import { ReceitaResponse } from '../../models/receita-response.model';
   providedIn: 'root',
 })
 export class ReceitasApi {
-  
+    
+  //capturando a variável apiUrl que contém o link da a API.
    private readonly apiUrl = environment.apiUrl
 
    constructor(private http: HttpClient) {}
 
+
+  
   listar(): Observable<ReceitaResponse[]> {
     return this.http.get<ReceitaResponse[]>(this.apiUrl);
   }
